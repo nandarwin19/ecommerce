@@ -1,0 +1,115 @@
+.descriptionBox {
+    width: 85%;
+    margin: 0 auto;
+    padding: 80px 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+.descriptionbox-navigator {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.description-nav-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #5d5d5d;
+    background-color: rgb(247, 30, 30);
+    cursor: pointer;
+}
+
+.description-nav-box.fade {
+    background-color: #efefef;
+    flex-direction: column;
+    gap: 25px;
+    border: 1px solid #D0d0d0;
+}
+
+.description-review {
+    display: flex;
+    align-items: center;
+    background: #efeded;
+    padding: 10px;
+    margin: 10px;
+}
+
+.description-review img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.des-review-text {
+    margin-left: 15px;
+}
+
+.des-review-text p:first-child {
+    font-size: 11px;
+    margin-top: -10px;
+    color: #9a9a9a;
+
+}
+
+.des-review-text p:last-child {
+    font-size: 14px;
+    color: #454545;
+}
+
+@media (max-width: 767px) {
+
+.description-nav-box {
+    font-size: 14px;
+    width: 120px;
+    height: 45px;
+}
+
+.descriptionbox-description {
+    font-size: 14px;
+}
+
+.description-review img {
+    width: 35px;
+    height: 35px;
+}
+
+.des-review-text p:first-child {
+    font-size: 10px;
+}
+
+.des-review-text p:last-child {
+    font-size: 14px;
+    color: #454545;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) { 
+.description-nav-box {
+    font-size: 15px;
+    width: 140px;
+    height: 48px;
+}
+
+.descriptionbox-description {
+    font-size: 15px;
+}
+
+.description-review img {
+    width: 40px;
+    height: 40px;
+}
+
+.des-review-text p:first-child {
+    font-size: 11px;
+}
+
+.des-review-text p:last-child {
+    font-size: 15px;
+    color: #454545;
+}
+}

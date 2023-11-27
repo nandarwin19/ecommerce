@@ -1,0 +1,99 @@
+.related-products {
+    width: 100%;
+    height: 100vh;
+    padding: 30px 0px;
+}
+
+.related-products-titles {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.related-main-title {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.related-products-titles h1 {
+    color: #171717;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.related-products-titles button {
+    width: 150px;
+    height: 40px;
+    font-weight: 600;
+    transition: all 0.1s ease-in-out;
+    background-color: #171717;
+    color: #fff;
+    cursor: pointer;
+}
+
+.related-products-titles button:hover {
+    background-color: #fff;
+    color: #171717;
+}
+
+.relatedproducts hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+
+.relatedproducts-item {
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+}
+
+
+@media (max-width: 767px) {
+.related-products-titles {
+    margin: 20px auto;
+}
+
+
+.related-products-titles h1 {
+    font-size: 25px;
+}
+
+.related-products-titles button {
+    width: 100px;
+    height: 35px;
+}
+
+.relatedproducts-item {
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) { 
+.related-products-titles {
+    margin: 20px auto;
+}
+
+
+.related-products-titles h1 {
+    font-size: 30px;
+}
+
+.related-products-titles button {
+    width: 130px;
+    height: 45px;
+}
+
+.relatedproducts-item {
+    margin-top: 45px;
+    display: flex;
+}
+}

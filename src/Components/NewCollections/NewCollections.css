@@ -1,0 +1,74 @@
+.new-collection-cards {
+    flex-wrap: wrap;
+    width: 85%;
+    margin-bottom: 100px;
+}
+
+
+.popular, .items {
+    padding: 10px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #f3f2f2;
+}
+
+.new-collection .title {
+    color: #171717;
+    font-size: 40px;
+    font-family: 'Monomaniac One', sans-serif;
+}
+
+.popular-item, .items-cards {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Mobile-first approach */
+@media (max-width: 767px) {
+    .new-collection .title {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .popular-item, .items-cards {
+        margin-top: 0px;
+    }
+
+    .new-collection-cards {
+        flex-wrap: wrap;
+        width: 85%;
+        margin-bottom: 0px;
+    }
+}
+
+/* Tablets: range from 768px to 1023px */
+@media (min-width: 768px) and (max-width: 1023px) { 
+    /* Tablet-specific styles can go here */
+
+    .new-collection .title {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .popular-item, .items-cards {
+        margin-top: 0px;
+    }
+
+    .new-collection-cards {
+        flex-wrap: wrap;
+        width: 85%;
+        margin-bottom: 0px;
+    }
+}
+
+/* Desktop screens: 1024px and larger */
+@media (min-width: 1024px) { 
+    /* Desktop-specific styles can go here */
+    
+}
